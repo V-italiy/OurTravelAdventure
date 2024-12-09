@@ -1,0 +1,192 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Chelsea Market", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+body {
+    background-color: #DEAA79;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 6vh;
+    margin-bottom: 0px;
+    justify-content: right;
+}
+
+.instagram-logo {
+    display: flex;
+    width: 15%;
+    height: 100%;
+    justify-content: center;
+    align-items: end;
+}
+
+.instagram-logo img {
+    width: 60px;
+}
+
+#header {
+    display: flex;
+    width: 100%;
+    height: 35vh;
+    margin: 0;
+    background-image: url(../images/nyc-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+#header a {
+    color: white;
+    display: inline;
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+#header a:focus {
+    top: 20px;
+    left: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    /* line-height: 0.9; */
+    font-size: 5.5vw;
+    /* font-family: Impact, fantasy; */
+    text-shadow: 0px 0px 5px #000000;
+    /* letter-spacing: 3px; */
+}
+
+main {
+    /* background-color: rgb(205, 186, 105); */
+    /* background-color: rgb(145, 145, 145); */
+    height: 58vh;
+}
+
+main nav {
+    /* background-color: rgb(0, 0, 0);
+    border-top: 1px solid white;
+    border-bottom: 1px solid white; */
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18%;
+    column-gap: 2%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(183, 101, 0); */
+    background-color: #659287;
+    /* border: 1px solid #000000; */
+    /* background: linear-gradient(#d5b422, #eadda0); */
+}
+
+main nav p {
+    color: white;
+    text-shadow: 0px 0px 3px #000000;
+}
+
+.main-grid-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18%;
+    grid-template-rows: auto auto;
+    column-gap: 2%;
+    row-gap: 11%;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-row {
+    grid-column: 1 / span 4;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 5px #000000;
+    font-size: 1.6vw;
+}
+
+.main-grid-container div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-grid-container div span {
+    position: absolute;
+    /* color: rgb(255, 228, 107); */
+    color: #FFE6A9;
+    font-size: 3.5vw;
+    text-shadow: 0px 0px 10px #000000;
+    z-index: 100;
+}
+
+/* .main-grid-container div span a {
+    color: rgb(255, 228, 107);
+    font-size: 3.5vw;
+    text-shadow: 0px 0px 10px #000000;
+} */
+
+.main-grid-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: ease-in-out 0.4s;
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+}
+
+.soon {
+    -webkit-filter: blur(5px);
+    /* Safari 6.0 - 9.0 */
+    filter: blur(5px);
+}
+
+.main-grid-container img:hover {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    scale: 1.1;
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
+}
+
+.main-grid-container img:active {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    scale: 0.9;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7vh;
+    /* background-color: rgb(255, 209, 154); */
+    background-color: #B1C29E;
+    padding: 0 30px;
+}
+
+/* footer p {
+    display: inline;
+}
+
+footer a {
+    display: inline;
+} */
