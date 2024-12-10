@@ -107,6 +107,14 @@ img:hover {
 }
 
 @media screen and (max-width: 500px) {
+    body {
+        background-image: url(../images/London/uk-flag.png);
+        background-repeat: repeat-y;
+        background-size: 90%;
+        background-position-x: center;
+        background-position-y: center;
+    }
+
     .grid-container {
         display: flex;
         flex-direction: column;
