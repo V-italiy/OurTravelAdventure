@@ -109,6 +109,12 @@ img:hover {
 }
 
 @media screen and (max-width: 500px) {
+    body {
+        background-size: 60%;
+        background-repeat: repeat-y;
+
+    }
+
     .grid-container {
         display: flex;
         flex-direction: column;
