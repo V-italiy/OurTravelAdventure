@@ -235,5 +235,8 @@ footer a {
         left: 20px;
     }
 
-
+footer {
+        position: relative;
+        display: none;
+    }
 }
