@@ -169,7 +169,7 @@ main nav p {
     scale: 0.9;
 }
 
-footer {
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -188,7 +188,7 @@ footer a {
 } */
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
     #header {
         height: 10vh;
         margin-bottom: 3%;
@@ -235,7 +235,7 @@ footer a {
         left: 20px;
     }
 
-footer {
+    footer {
         position: relative;
         display: none;
     }
